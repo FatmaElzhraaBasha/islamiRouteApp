@@ -19,7 +19,7 @@ class _IntroScreenState extends State<IntroScreen> {
   void _onIntroEnd(context) {
     Navigator.of(
       context,
-    ).pushReplacement(MaterialPageRoute(builder: (_) => const HomeScreen()));
+    ).pushReplacement(MaterialPageRoute(builder: (_) => HomeScreen()));
   }
 
   @override

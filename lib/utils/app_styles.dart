@@ -34,10 +34,28 @@ class AppStyles {
     color: AppColors.whiteColor,
   );
 
+  static TextStyle bold36white = GoogleFonts.elMessiri(
+    fontSize: 36,
+    fontWeight: FontWeight.bold,
+    color: AppColors.whiteColor,
+  );
+
   static TextStyle bold20Primary = GoogleFonts.elMessiri(
     fontSize: 20,
     fontWeight: FontWeight.bold,
     color: AppColors.primaryColor,
+  );
+  static TextStyle bold20PrimaryHeight2 = GoogleFonts.elMessiri(
+      fontSize: 20,
+      fontWeight: FontWeight.bold,
+      color: AppColors.primaryColor,
+      height: 2.5
+  );
+
+  static TextStyle bold20Black = GoogleFonts.elMessiri(
+    fontSize: 20,
+    fontWeight: FontWeight.bold,
+    color: AppColors.blackColor,
   );
 
   static TextStyle bold24Primary = GoogleFonts.elMessiri(
@@ -51,4 +69,19 @@ class AppStyles {
     fontWeight: FontWeight.bold,
     color: AppColors.primaryColor,
   );
+  static TextStyle bold16Black = GoogleFonts.elMessiri(
+    fontSize: 16,
+    fontWeight: FontWeight.bold,
+    color: AppColors.blackColor,
+  );
+  static TextStyle bold16 = GoogleFonts.elMessiri(
+      fontSize: 16,
+      fontWeight: FontWeight.bold
+  );
+  static TextStyle bold12Black = GoogleFonts.elMessiri(
+    fontSize: 12,
+    fontWeight: FontWeight.bold,
+    color: AppColors.blackColor,
+  );
+
 }
